@@ -28,17 +28,20 @@ main {
     border-radius: 16px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     border: 2px solid #17a2b8;
+    text-align: center;
 }
 
 .profile {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 20px;
 }
 
 .profile img {
     width: 160px;
     height: 160px;
-    border-radius: 50%;
+    border-radius: 50%; /* Daire için */
     object-fit: cover;
     margin-bottom: 10px;
     border: 5px solid #17a2b8;
@@ -48,6 +51,7 @@ main {
 .profile h2 {
     font-size: 2rem;
     color: #17a2b8;
+    margin-top: 10px;
 }
 
 .profile p {
